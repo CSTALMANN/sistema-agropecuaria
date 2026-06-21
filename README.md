@@ -1,16 +1,30 @@
-# Sistema Agropecuária
+# Sistema Agropecuária - Módulo 5
 
-Sistema web para gerenciamento de clientes, produtos e pedidos de uma agropecuária.
+Sistema administrativo completo desenvolvido com **Node.js, React e MySQL**, conforme requisitos do projeto.
 
-## Funcionalidades
+## 📋 Funcionalidades
+- ✅ Autenticação JWT (login/logout)
+- ✅ Senha criptografada no banco
+- ✅ Cadastro, edição e exclusão de usuários
+- ✅ 3 CRUDs completos: **Clientes, Produtos e Pedidos**
+- ✅ Validações: CPF, E-mail, Senha e campos obrigatórios
+- ✅ Relacionamento entre tabelas
+- ✅ Paginação nas listagens
+- ✅ Código organizado e limpo
 
-- Cadastro de Clientes
-- Cadastro de Produtos
-- Cadastro de Pedidos
+## 🚀 Tecnologias Utilizadas
+- **Backend:** Node.js + Express
+- **Frontend:** React + Vite + Context API
+- **Banco de Dados:** MySQL
 
-## Tecnologias
+## ▶️ Como executar o projeto
 
-- React
-- Node.js
-- MySQL
-- Git e GitHub
+### 1. Importar o banco de dados
+- Abra o MySQL Workbench ou phpMyAdmin
+- Execute o script `banco.sql` que está na raiz do projeto
+
+### 2. Executar o Backend
+```bash
+# Na pasta raiz do projeto
+npm install
+node server.js
